@@ -1,8 +1,16 @@
 // 1. Write a JavaScript program to display the current day and time in the following format.  Go to the editor
 // Sample Output : Today is : Tuesday.
 // Current time is : 10 PM : 30 : 38
+var myDate = new Date();
+var myDay = myDate.getDay();
+var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-console.log("Today is : ")
+document.write(myDate + "<br/>");
+
+
+
+document.write("Today is : " + weekdays[myDay] + "<br/>");
+document.write("Current time is : " + myDate);
 
 // 2. Write a JavaScript program to print the contents of the current window.
 
