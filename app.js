@@ -68,20 +68,26 @@ document.write("<br/>");
 
 // 6. Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.  Go to the editor
 
-function leapYear(year) {
-  let isLeap = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
-  let answer = "";
-  if (isLeap == true) {
-    answer = "is";
-  } else {
-      answer = "is not";
-  }
-  return(year + " " + answer + " a leap year.")
-};
+// function leapYear(year) {
+//   let isLeap = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
+//   let answer = "";
+//   if (isLeap == true) {
+//     answer = "is";
+//   } else {
+//       answer = "is not";
+//   }
+//   return(year + " " + answer + " a leap year.")
+// };
 
-document.write(leapYear(2102));
+// document.write(leapYear(2102));
 
 // 7. Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050.  Go to the editor
+
+function findSunday() {
+
+};
+
+document.write(findSunday());
 
 
 // 8. Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched".  Go to the editor
