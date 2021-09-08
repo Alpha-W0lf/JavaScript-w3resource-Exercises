@@ -30,24 +30,24 @@ document.write("<br/>");
 // mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
 
 
-let today = new Date();
+// let today = new Date();
 
-document.write(today + "<br/>");
+// document.write(today + "<br/>");
 
-let month = 1 + today.getMonth();
-let date = today.getDate();
-let year = today.getFullYear();
+// let month = 1 + today.getMonth();
+// let date = today.getDate();
+// let year = today.getFullYear();
 
-if (month < 10) {
-    month = '0' + month;
-};
+// if (month < 10) {
+//     month = '0' + month;
+// };
 
-if (date < 10) {
-    date = '0' + date;
-};
+// if (date < 10) {
+//     date = '0' + date;
+// };
 
-document.write(month + "<br/>");
-document.write(month + "-" + date + "-" + year + "<br/>");
+// document.write(month + "<br/>");
+// document.write(month + "-" + date + "-" + year + "<br/>");
 
 
 
