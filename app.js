@@ -2,6 +2,7 @@
 // Sample Output : Today is : Tuesday.
 // Current time is : 10 PM : 30 : 38
 
+console.log("Today is : ")
 
 // 2. Write a JavaScript program to print the contents of the current window.
 
