@@ -68,10 +68,18 @@ document.write("<br/>");
 
 // 6. Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.  Go to the editor
 
-let today = new Date();
-let year = today.getFullYear();
+function leapYear(year) {
+  let isLeap = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
+  let answer = "";
+  if (isLeap == true) {
+    answer = "is";
+  } else {
+      answer = "is not";
+  }
+  return(year + " " + answer + " a leap year.")
+};
 
-document.write(year);
+document.write(leapYear(2102));
 
 // 7. Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050.  Go to the editor
 
