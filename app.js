@@ -62,12 +62,16 @@ document.write("<br/>");
 
 // 5. Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.  Go to the editor
 
-let given_word = "w3resource";
+// let given_word = "w3resource";
 
-document.write(given_word);
+// document.write(given_word);
 
 // 6. Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.  Go to the editor
 
+let today = new Date();
+let year = today.getFullYear();
+
+document.write(year);
 
 // 7. Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050.  Go to the editor
 
