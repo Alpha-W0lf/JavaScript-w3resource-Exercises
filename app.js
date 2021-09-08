@@ -1,27 +1,27 @@
 // 1. Write a JavaScript program to display the current day and time in the following format.  Go to the editor
 // Sample Output : Today is : Tuesday.
 // Current time is : 10 PM : 30 : 38
-var myDate = new Date();
-var myDay = myDate.getDay();
-var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+// var myDate = new Date();
+// var myDay = myDate.getDay();
+// var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-// document.write(myDate + "<br/>");
+// // document.write(myDate + "<br/>");
 
-// document.write(myTime + "<br/>");
+// // document.write(myTime + "<br/>");
 
-var AmPm = myDate.getHours() >= 12 ? "PM" : "AM";
-var hours = myDate.getHours() % 12;
-var NowTime = hours + " " + AmPm + " : " + myDate.getMinutes() + " : " + myDate.getSeconds();
+// var AmPm = myDate.getHours() >= 12 ? "PM" : "AM";
+// var hours = myDate.getHours() % 12;
+// var NowTime = hours + " " + AmPm + " : " + myDate.getMinutes() + " : " + myDate.getSeconds();
 
-// document.write(NowTime + "<br/>");
+// // document.write(NowTime + "<br/>");
 
-document.write("Today is : " + weekdays[myDay] + "<br/>");
-document.write("Current time is : " + NowTime);
+// document.write("Today is : " + weekdays[myDay] + "<br/>");
+// document.write("Current time is : " + NowTime);
 
-// 2. Write a JavaScript program to print the contents of the current window.
-function printButton() {
-window.print();
-};
+// // 2. Write a JavaScript program to print the contents of the current window.
+// function printButton() {
+// window.print();
+// };
 
 // 3. Write a JavaScript program to get the current date.  Go to the editor
 // Expected Output :
