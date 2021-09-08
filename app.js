@@ -19,7 +19,9 @@ document.write("Today is : " + weekdays[myDay] + "<br/>");
 document.write("Current time is : " + NowTime);
 
 // 2. Write a JavaScript program to print the contents of the current window.
-
+function printButton() {
+window.print();
+};
 
 // 3. Write a JavaScript program to get the current date.  Go to the editor
 // Expected Output :
