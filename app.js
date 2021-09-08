@@ -7,7 +7,9 @@ var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
 
 document.write(myDate + "<br/>");
 
+var myTime = myDate.getTime();
 
+document.write(myTime + "<br/>");
 
 document.write("Today is : " + weekdays[myDay] + "<br/>");
 document.write("Current time is : " + myDate);
