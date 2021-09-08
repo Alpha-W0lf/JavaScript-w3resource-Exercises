@@ -159,5 +159,7 @@ function whenChristmas() {
 whenChristmas();
 
 // 10. Write a JavaScript program to calculate multiplication and division of two numbers (input from user).  Go to the editor
-// Sample form :
-// sample form :
+// Make a form with text boxes for user to input 2 numbers
+// Add two buttons. One for multiply. One for divide.
+// Display result after button click.
+
