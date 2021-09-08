@@ -5,14 +5,18 @@ var myDate = new Date();
 var myDay = myDate.getDay();
 var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-document.write(myDate + "<br/>");
+// document.write(myDate + "<br/>");
 
-var myTime = myDate.getTime();
+// document.write(myTime + "<br/>");
 
-document.write(myTime + "<br/>");
+var AmPm = myDate.getHours() >= 12 ? "PM" : "AM";
+var hours = myDate.getHours() % 12;
+var NowTime = hours + " " + AmPm + " : " + myDate.getMinutes() + " : " + myDate.getSeconds();
+
+// document.write(NowTime + "<br/>");
 
 document.write("Today is : " + weekdays[myDay] + "<br/>");
-document.write("Current time is : " + myDate);
+document.write("Current time is : " + NowTime);
 
 // 2. Write a JavaScript program to print the contents of the current window.
 
