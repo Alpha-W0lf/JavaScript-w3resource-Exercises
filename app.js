@@ -112,20 +112,51 @@ document.write("<br/>");
 
 // 8. Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched".  Go to the editor
 
-function guessRand() {
-    let randInt = Math.floor(Math.random() * 10) + 1;
-    let userGuess = prompt("Please guess an integer between 1 and 10: ", "");
-    let result = "Not matched";
-    if (randInt == userGuess) {
-        result = "Good Work";
-    }
-    document.write("The random number is " + randInt + "<br/>");
-    document.write("Your guess is " + userGuess + "<br/>");
-    document.write(result + "<br/>");
-};
+// function guessRand() {
+//     let randInt = Math.floor(Math.random() * 10) + 1;
+//     let userGuess = prompt("Please guess an integer between 1 and 10: ", "");
+//     let result = "Not matched";
+//     if (randInt == userGuess) {
+//         result = "Good Work";
+//     }
+//     document.write("The random number is " + randInt + "<br/>");
+//     document.write("Your guess is " + userGuess + "<br/>");
+//     document.write(result + "<br/>");
+// };
 
 // 9. Write a JavaScript program to calculate days left until next Christmas.  Go to the editor
 
+function whenChristmas() {
+    let today = new Date();
+    let todayISO = today.toISOString().slice(0, 10);
+    let thisYear = today.getFullYear();
+    let thisMonth = today.getMonth();
+    let thisDate = today.getDate();
+    let christmasYear = thisYear;
+    let nextChristmasDay = "";
+    let daysLeftTilChristmas = "";
+
+    document.write("Today: " + today + "<br/>");
+    document.write("This year: " + thisYear + "<br/>");
+    document.write("This month: " + thisMonth + "<br/>");
+    document.write("This date: " + thisDate + "<br/>");
+
+    if (thisMonth == 11 && thisDate >= 25) {
+        christmasYear = thisYear + 1;
+    }
+
+    document.write("The year of next Christmas is: " + christmasYear + "<br/>");
+    document.write("Today is: " + todayISO + "<br/>");
+    nextChristmasDay = christmasYear + "-12-25";
+    document.write("Next Christmas day: " + nextChristmasDay + "<br/>");
+
+    timeLeftTilChristmas = (new Date(nextChristmasDay).getTime()) - (new Date(todayISO).getTime());
+    daysLeftTilChristmas = timeLeftTilChristmas / (1000 * 3600 * 24);
+    document.write("Days left til Christmas: " + daysLeftTilChristmas + "<br/>");
+
+};
+
+whenChristmas();
 
 // 10. Write a JavaScript program to calculate multiplication and division of two numbers (input from user).  Go to the editor
 // Sample form :
