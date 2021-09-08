@@ -136,21 +136,21 @@ function whenChristmas() {
     let nextChristmasDay = "";
     let daysLeftTilChristmas = "";
 
-    document.write("Today: " + today + "<br/>");
-    document.write("This year: " + thisYear + "<br/>");
-    document.write("This month: " + thisMonth + "<br/>");
-    document.write("This date: " + thisDate + "<br/>");
+    // document.write("Today: " + today + "<br/>");
+    // document.write("This year: " + thisYear + "<br/>");
+    // document.write("This month: " + thisMonth + "<br/>");
+    // document.write("This date: " + thisDate + "<br/>");
 
     if (thisMonth == 11 && thisDate >= 25) {
         christmasYear = thisYear + 1;
     }
 
-    document.write("The year of next Christmas is: " + christmasYear + "<br/>");
-    document.write("Today is: " + todayISO + "<br/>");
+    // document.write("The year of next Christmas is: " + christmasYear + "<br/>");
+    // document.write("Today is: " + todayISO + "<br/>");
     nextChristmasDay = christmasYear + "-12-25";
-    document.write("Next Christmas day: " + nextChristmasDay + "<br/>");
+    // document.write("Next Christmas day: " + nextChristmasDay + "<br/>");
 
-    timeLeftTilChristmas = (new Date(nextChristmasDay).getTime()) - (new Date(todayISO).getTime());
+    let timeLeftTilChristmas = (new Date(nextChristmasDay).getTime()) - (new Date(todayISO).getTime());
     daysLeftTilChristmas = timeLeftTilChristmas / (1000 * 3600 * 24);
     document.write("Days left til Christmas: " + daysLeftTilChristmas + "<br/>");
 
