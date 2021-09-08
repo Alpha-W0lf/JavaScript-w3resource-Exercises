@@ -49,10 +49,16 @@ document.write("<br/>");
 // document.write(month + "<br/>");
 // document.write(month + "-" + date + "-" + year + "<br/>");
 
-
-
 // 4. Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7.  Go to the editor
+let a = 5;
+let b = 6;
+let c = 7;
+let s = (a + b + c)/2;
 
+let triArea = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+
+document.write(s+"<br/>");
+document.write(triArea);
 
 // 5. Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.  Go to the editor
 
