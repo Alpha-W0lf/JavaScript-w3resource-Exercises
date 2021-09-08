@@ -83,32 +83,32 @@ document.write("<br/>");
 
 // 7. Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050.  Go to the editor
 
-function findSunday(year1, year2) {
-    let begYear = year1;
-    let lastYear = year2;
-    let daysList = [];
-    let answerList = [];
+// function findSunday(year1, year2) {
+//     let begYear = year1;
+//     let lastYear = year2;
+//     let daysList = [];
+//     let answerList = [];
 
 
-    for (let i = begYear; i <= lastYear; i++) {
+//     for (let i = begYear; i <= lastYear; i++) {
 
-        let currYear = i + "-01-01";
-        let jan1DayOfWeek = new Date(currYear).getDay();
+//         let currYear = i + "-01-01";
+//         let jan1DayOfWeek = new Date(currYear).getDay();
         
-        if (jan1DayOfWeek == 6) {
-            daysList.push(i);
-        } else {
-            continue;
-        };
+//         if (jan1DayOfWeek == 6) {
+//             daysList.push(i);
+//         } else {
+//             continue;
+//         };
 
-    };
+//     };
 
     
     
-    document.write("The years starting with a Sunday are: " + daysList.join(' ') + "<br/>");
-};
+//     document.write("The years starting with a Sunday are: " + daysList.join(' ') + "<br/>");
+// };
 
-findSunday(2014, 2050);
+// findSunday(2014, 2050);
 
 // 8. Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched".  Go to the editor
 
