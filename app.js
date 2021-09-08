@@ -113,12 +113,16 @@ document.write("<br/>");
 // 8. Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched".  Go to the editor
 
 function guessRand() {
-    let randInt = "";
-    let userGuess = "";
-    
+    let randInt = Math.floor(Math.random() * 10) + 1;
+    let userGuess = prompt("Please guess an integer between 1 and 10: ", "");
+    let result = "Not matched";
+    if (randInt == userGuess) {
+        result = "Good Work";
+    }
+    document.write("The random number is " + randInt + "<br/>");
+    document.write("Your guess is " + userGuess + "<br/>");
+    document.write(result + "<br/>");
 };
-
-document.write(guessRand());
 
 // 9. Write a JavaScript program to calculate days left until next Christmas.  Go to the editor
 
