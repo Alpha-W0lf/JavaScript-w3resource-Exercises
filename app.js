@@ -247,6 +247,19 @@ function nameVar() {
 
 // 15. Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.  Go to the editor
 
+function getDifference(ourNum) {
+    let comparisonNum = 13
+    let answer = ""
+    if (comparisonNum - ourNum < 0) {
+        answer = Math.abs((ourNum - comparisonNum) * 2)
+        console.log(answer)
+    } else {
+        answer = comparisonNum - ourNum
+        console.log(answer)
+    }
+}
+
+getDifference(133)
 
 // 16. Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum.  Go to the editor
 // Click me to see the solution
