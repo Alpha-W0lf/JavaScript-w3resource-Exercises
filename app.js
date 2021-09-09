@@ -227,6 +227,12 @@ document.write("<br/>");
 
 // 13. Write a JavaScript exercise to create a variable using a user-defined name.  Go to the editor
 
+function nameVar() {
+    let theVar = document.getElementById("varName").value
+    let theValue = 123
+    this[theVar] = theValue
+    document.write(theVar + " <-- What you entered. " + [theVar] + "<br/>")
+}
 
 // 14. Write a JavaScript exercise to get the extension of a filename.  Go to the editor
 
