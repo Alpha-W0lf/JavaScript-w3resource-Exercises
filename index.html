@@ -20,14 +20,15 @@
         <input id="divide_button" type="button" value="Divide" onclick="weDivide()"><br>
 
         <p id="display_result"></p>
-
-
-    <form action="/app.js" method="POST"></form>
-        <label for="varName">Enter the name of our variable:</label><br>
-        <input id="varName" type="text">
-        <button id="nameButton" onclick="nameVar()">Name Variable</button>
     </form>
 
+    <form action="/app.js" method="POST">
+        <label for="varName">Enter the name of our variable:</label><br>
+        <input id="varName" type="text">
+        <button id="nameButton" type="button" onclick="nameVar()">Name Variable</button>
+
+        <p id="our_answer"></p>
+    </form>
     
     <script src="app.js"></script>
 </body>
