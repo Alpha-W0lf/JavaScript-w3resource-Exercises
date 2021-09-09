@@ -236,12 +236,13 @@ function nameVar() {
 
 // 14. Write a JavaScript exercise to get the extension of a filename.  Go to the editor
 
-function getExtension() {
-
-
+function getExtension(fileName) {
+    fileName_str = String(fileName)
+    answer = fileName_str.substring(fileName_str.indexOf("."))
+    console.log("The file's extension is : " + answer)
 }
 
-getExtension()
+getExtension("heavy.png")
 
 
 // 15. Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.  Go to the editor
