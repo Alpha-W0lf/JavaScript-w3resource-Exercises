@@ -219,7 +219,6 @@ document.write("<br/>");
 // convertTemp(90, "c")
 
 // 12. Write a JavaScript program to get the website URL (loading page).  Go to the editor
-// Click me to see the solution
 
 // let currentSite = window.location.href
 
@@ -227,15 +226,12 @@ document.write("<br/>");
 // document.write(document.URL)
 
 // 13. Write a JavaScript exercise to create a variable using a user-defined name.  Go to the editor
-// Click me to see the solution
 
 
 // 14. Write a JavaScript exercise to get the extension of a filename.  Go to the editor
-// Click me to see the solution
 
 
 // 15. Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.  Go to the editor
-// Click me to see the solution
 
 
 // 16. Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum.  Go to the editor
