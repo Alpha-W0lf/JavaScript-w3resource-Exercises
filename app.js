@@ -278,7 +278,6 @@ computeSum(4, 7)
 
 
 // 17. Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19.  Go to the editor
-// Click me to see the solution
 
 
 // 18. Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50.  Go to the editor
