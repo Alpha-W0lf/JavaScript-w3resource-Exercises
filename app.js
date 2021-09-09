@@ -194,29 +194,29 @@ document.write("<br/>");
 // 45°F is 7.222222222222222°C
 // Click me to see the solution
 
-function convertTemp(givenValue, givenUnit) {
+// function convertTemp(givenValue, givenUnit) {
 
-    document.write(givenValue + "<br/>")
-    document.write(givenUnit + "<br/>")
+//     document.write(givenValue + "<br/>")
+//     document.write(givenUnit + "<br/>")
 
-    let convertedUnit = ""
-    let convertedValue = ""
-    if (givenUnit == "f" || givenUnit == "F") {
-        convertedUnit = "c"
-        convertedValue = (givenValue - 32) * 5 / 9
-        document.write(givenValue + " degrees " + givenUnit + " is converted to " + convertedValue + " degrees " + convertedUnit)
-    } else if (givenUnit == "c" || givenUnit == "C") {
-        convertedUnit = "f"
-        convertedValue = ((9 * givenValue) / 5) + 32
-        document.write(givenValue + " degrees " + givenUnit + " is " + convertedValue + " degrees " + convertedUnit)
-    } else {
-        document.write("Please enter a valid unit. f or c")
-    }
+//     let convertedUnit = ""
+//     let convertedValue = ""
+//     if (givenUnit == "f" || givenUnit == "F") {
+//         convertedUnit = "c"
+//         convertedValue = (givenValue - 32) * 5 / 9
+//         document.write(givenValue + " degrees " + givenUnit + " is converted to " + convertedValue + " degrees " + convertedUnit)
+//     } else if (givenUnit == "c" || givenUnit == "C") {
+//         convertedUnit = "f"
+//         convertedValue = ((9 * givenValue) / 5) + 32
+//         document.write(givenValue + " degrees " + givenUnit + " is " + convertedValue + " degrees " + convertedUnit)
+//     } else {
+//         document.write("Please enter a valid unit. f or c")
+//     }
 
-}
+// }
 
 
-convertTemp(90, "c")
+// convertTemp(90, "c")
 
 
 // 12. Write a JavaScript program to get the website URL (loading page).  Go to the editor
