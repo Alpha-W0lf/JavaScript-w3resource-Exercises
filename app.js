@@ -261,8 +261,20 @@ function getDifference(ourNum) {
 
 getDifference(133)
 
-// 16. Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum.  Go to the editor
-// Click me to see the solution
+// 16. Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum.
+
+function computeSum(num1, num2) {
+    let answer = null
+    if (num1 == num2) {
+        answer = (num1 + num2) * 3
+        console.log(answer)
+    } else {
+        answer = num1 + num2
+        console.log(answer)
+    }
+}
+
+computeSum(4, 7)
 
 
 // 17. Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19.  Go to the editor
