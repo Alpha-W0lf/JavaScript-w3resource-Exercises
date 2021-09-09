@@ -218,10 +218,13 @@ document.write("<br/>");
 
 // convertTemp(90, "c")
 
-
 // 12. Write a JavaScript program to get the website URL (loading page).  Go to the editor
 // Click me to see the solution
 
+// let currentSite = window.location.href
+
+// document.write(currentSite + "<br/>")
+// document.write(document.URL)
 
 // 13. Write a JavaScript exercise to create a variable using a user-defined name.  Go to the editor
 // Click me to see the solution
