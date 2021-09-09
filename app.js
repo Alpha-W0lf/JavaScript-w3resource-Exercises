@@ -163,27 +163,109 @@ document.write("<br/>");
 // Add two buttons. One for multiply. One for divide.
 // Display result after button click.
 
+// function weMultiply() {
+//     let num1 = document.getElementById("num1").value
+//     let num2 = document.getElementById("num2").value
 
-function weMultiply() {
-    let num1 = document.getElementById("num1").value
-    let num2 = document.getElementById("num2").value
+//     multiplied_answer = num1 * num2
 
-    multiplied_answer = num1 * num2
-
-    document.getElementById("display_result").innerHTML = "The two numbers MULTIPLIED is:<br/><br/>" + multiplied_answer
-}
-
+//     document.getElementById("display_result").innerHTML = "The two numbers MULTIPLIED is:<br/><br/>" + multiplied_answer
+// }
 
 
-function weDivide() {
-    let num1 = document.getElementById("num1").value
-    let num2 = document.getElementById("num2").value
 
-    console.log("We are dividing. Num1 : " + num1)
-    console.log("We are dividing. Num2 : " + num2)
+// function weDivide() {
+//     let num1 = document.getElementById("num1").value
+//     let num2 = document.getElementById("num2").value
+
+//     console.log("We are dividing. Num1 : " + num1)
+//     console.log("We are dividing. Num2 : " + num2)
 
 
-    divided_answer = num1 / num2
-    console.log(divided_answer)
-    document.getElementById("display_result").innerHTML = "The two numbers DIVIDED is:<br/><br/>" + divided_answer
-}
+//     divided_answer = num1 / num2
+//     console.log(divided_answer)
+//     document.getElementById("display_result").innerHTML = "The two numbers DIVIDED is:<br/><br/>" + divided_answer
+// }
+
+// 11. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.  Go to the editor
+// [ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f = temperature in Fahrenheit ]
+// Expected Output :
+// 60°C is 140 °F
+// 45°F is 7.222222222222222°C
+// Click me to see the solution
+
+
+// 12. Write a JavaScript program to get the website URL (loading page).  Go to the editor
+// Click me to see the solution
+
+
+// 13. Write a JavaScript exercise to create a variable using a user-defined name.  Go to the editor
+// Click me to see the solution
+
+
+// 14. Write a JavaScript exercise to get the extension of a filename.  Go to the editor
+// Click me to see the solution
+
+
+// 15. Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.  Go to the editor
+// Click me to see the solution
+
+
+// 16. Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum.  Go to the editor
+// Click me to see the solution
+
+
+// 17. Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19.  Go to the editor
+// Click me to see the solution
+
+
+// 18. Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50.  Go to the editor
+// Click me to see the solution
+
+
+// 19. Write a JavaScript program to check whether a given integer is within 20 of 100 or 400.  Go to the editor
+// Click me to see the solution
+
+
+// 20. Write a JavaScript program to check from two given integers, whether one is positive and another one is negative.  Go to the editor
+// Click me to see the solution
+
+
+// 21. Write a JavaScript program to create a new string adding "Py" in front of a given string. If the given string begins with "Py" then return the original string.  Go to the editor
+// Click me to see the solution
+
+
+// 22. Write a JavaScript program to remove a character at the specified position of a given string and return the new string.  Go to the editor
+// Click me to see the solution
+
+
+// 23. Write a JavaScript program to create a new string from a given string changing the position of first and last characters. The string length must be greater than or equal to 1.  Go to the editor
+// Click me to see the solution
+
+
+// 24. Write a JavaScript program to create a new string from a given string with the first character of the given string added at the front and back.  Go to the editor
+// Click me to see the solution
+
+
+// 25. Write a JavaScript program to check whether a given positive number is a multiple of 3 or a multiple of 7.  Go to the editor
+// Click me to see the solution
+
+
+// 26. Write a JavaScript program to create a new string from a given string taking the last 3 characters and added at both the front and back. The string length must be 3 or more.  Go to the editor
+// Click me to see the solution
+
+
+// 27. Write a JavaScript program to check whether a string starts with 'Java' and false otherwise.  Go to the editor
+// Click me to see the solution
+
+
+// 28. Write a JavaScript program to check whether two given integer values are in the range 50..99 (inclusive). Return true if either of them are in the said range.  Go to the editor
+// Click me to see the solution
+
+
+// 29. Write a JavaScript program to check whether three given integer values are in the range 50..99 (inclusive). Return true if one or more of them are in the said range.  Go to the editor
+// Click me to see the solution
+
+
+// 30. Write a JavaScript program to check whether a string "Script" presents at 5th (index 4) position in a given string, if "Script" presents in the string return the string without "Script" otherwise return the original one.
+
