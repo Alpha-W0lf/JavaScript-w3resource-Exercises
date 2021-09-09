@@ -9,16 +9,21 @@
 <body>
     <button onclick="printButton()">Print This Page</button><br><br>
     <button onclick="guessRand()">Play Guess Random Number</button><br><br><br>
+
+
     <form action="/app.js" method="post">
         <label for="num1">First Number:</label><br>
-        <input type="text"><br>
+        <input id="num1" type="text"><br>
         <label for="num2">Second Number:</label><br>
-        <input type="text"><br><br>
-        <input type="submit" value="Multiply">
-        <input type="submit" value="Divide"><br>
+        <input id="num2" type="text"><br><br>
+        <input id="multiply_button" type="button" value="Multiply" onclick="weMultiply()">
+        <input id="divide_button" type="button" value="Divide" onclick="weDivide()"><br>
+
+        <p id="display_result"></p>
 
     </form>
 
+    
     <script src="app.js"></script>
 </body>
 </html>

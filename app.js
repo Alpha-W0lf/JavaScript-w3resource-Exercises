@@ -163,4 +163,27 @@ document.write("<br/>");
 // Add two buttons. One for multiply. One for divide.
 // Display result after button click.
 
-let num1 = "";
+
+function weMultiply() {
+    let num1 = document.getElementById("num1").value
+    let num2 = document.getElementById("num2").value
+
+    multiplied_answer = num1 * num2
+
+    document.getElementById("display_result").innerHTML = "The two numbers MULTIPLIED is:<br/><br/>" + multiplied_answer
+}
+
+
+
+function weDivide() {
+    let num1 = document.getElementById("num1").value
+    let num2 = document.getElementById("num2").value
+
+    console.log("We are dividing. Num1 : " + num1)
+    console.log("We are dividing. Num2 : " + num2)
+
+
+    divided_answer = num1 / num2
+    console.log(divided_answer)
+    document.getElementById("display_result").innerHTML = "The two numbers DIVIDED is:<br/><br/>" + divided_answer
+}
